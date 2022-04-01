@@ -1,0 +1,74 @@
+<resources>
+    <string name="AnimationRainbow">AnimationRainbow</string>
+
+    <string name="fraction_text">
+            <![CDATA[
+                1<afrc>1/2</afrc> + <afrc>11/16</afrc>
+                = 2<afrc>3/16</afrc>
+                ]]>
+    </string>
+
+    <string name="app_name">textViewDesign</string>
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <!--    <color name="yellow">#FFFF00</color>-->
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+
+    <integer-array name="rainbowAnimation">
+        <item>@color/red</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/purple_200</item>
+    </integer-array>
+
+    <string name="path_circle">
+    M 50,50
+    m -48,0
+    a 48,48 0 1,0 96,0
+    a 48,48 0 1,0 -96,0
+  </string>
+    <string name="path_face_left_eye">
+    M 35,40
+    m -7,0
+    a 7,7 0 1,0 14,0
+    a 7,7 0 1,0 -14,0
+  </string>
+    <string name="path_face_right_eye">
+    M 65,40
+    m -7,0
+    a 7,7 0 1,0 14,0
+    a 7,7 0 1,0 -14,0
+  </string>
+    <string name="path_face_mouth_sad">
+    M 30,75
+    Q 50,55 70,75
+  </string>
+    <string name="path_face_mouth_happy">
+    M 30,65
+    Q 50,85 70,65
+  </string>
+</resources>
