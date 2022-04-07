@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TextViewDesign">
         <activity android:name=".textviewSet.TextViewSetting"/>
+        <activity android:name=".textviewSet.ArticleTest"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
